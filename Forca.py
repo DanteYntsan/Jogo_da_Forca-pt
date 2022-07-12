@@ -1,6 +1,6 @@
-# M1 - Introdução a Programação
+# Programa UPskill
+# Módulo 1 - Introdução a Programação
 # Jogo da Forca
-# Versão Teste (Att 12/06/2022):
 
 # Importação de Bibliotecas:
 import random
@@ -12,9 +12,9 @@ from collections import Counter
 
 # Declaração inicial das variáveis:
 players = []
-nivel = "Difícil"
-numerros = 6
-opc = 0
+nivel = "Difícil"  # Intenção inicial de incluir diferentes níveis de jogo, mas não foi incorporada na mecânica do jogo.
+numerros = 6  # Variável que define o número de erros possíveis para cada jogo. Depende de como a imagem do boneco for formatada.
+opc = 0  # Variável utilizada para direcionar as escolhas a partir do menu principal
 
 # Definição das Funções:
   ## Verificações dos inputs:
